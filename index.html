@@ -4,12 +4,13 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Kurt Davenport | Portfolio by Codegrid</title>
-    <meta name="author" content="harrnish @codegrid">
-
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+    <link rel="mask-icon" href="images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <title>Glagoliev Ievgenii | Portfolio </title>
     <!-- stylesheet -->
     <link rel="stylesheet" href="css/styles.css" />
-
     <!-- greensock -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
 </head>
@@ -20,7 +21,7 @@
         <!-- menu -->
         <nav class="menu">
             <div class="menu__logo">
-                <a href="index.html">kd</a>
+                <a href="index.html">GI</a>
             </div>
             <div class="menu__items">
                 <div class="menu__items-link active"><a href="index.html">Projects</a></div>
@@ -31,33 +32,38 @@
         <!-- horizontal scroll items -->
         <div class="container">
             <div class="container__item container__item-header">
-                <h1>Kurt Davenport, <br> Graphic Design</h1>
+                <h1>Glagoliev Ievgenii <br>Frontend Developer </h1>
             </div>
 
-            <div class="container__item container__item-1">
-                <h1 class="container__item-title">
-                    <a href="project.html">Asterisks</a>
-                </h1>
-            </div>
-            <div class="container__item container__item-2">
-                <h1 class="container__item-title">
-                    <a href="project.html">Unlocked</a>
-                </h1>
-            </div>
-            <div class="container__item container__item-3">
-                <h1 class="container__item-title">
-                    <a href="project.html">Offbeat</a>
-                </h1>
-            </div>
+            <a href="project.html" class="container__item">
+              <span class="container__item-tag">Consulting services marketplace</span>
+              <img src="./images/conseasy.png" alt="conseasy">
+                <h2 class="container__item-title">
+                  Conseasy
+                </h2>
+            </a>
+            <a href="project.html" class="container__item">
+              <img src="./images/vetplatform.png" alt="conseasy">
+                <h2 class="container__item-title">
+                  Vet platform
+                </h2>
+            </a>
+            <a href="project.html" class="container__item">
+              <img src="./images/expedreview.png" alt="conseasy">
+                <h2 class="container__item-title">
+                  Expedreview
+                </h2>
+            </a>
+            
             <div class="container__item container__item-4">
-                <h1 class="container__item-title">
+                <h2 class="container__item-title">
                     <a href="project.html">Brutal</a>
-                </h1>
+                </h2>
             </div>
             <div class="container__item container__item-5">
-                <h1 class="container__item-title">
+                <h2 class="container__item-title">
                     <a href="project.html">Mouthwash</a>
-                </h1>
+                </h2>
             </div>
         </div>
 
@@ -65,16 +71,8 @@
 
     <!-- script -->
     <script src="js/horizontal-scroll.js"></script>
-    <script>
-        var blocks = document.getElementsByClassName("container__item");
-        var container = document.getElementsByClassName("container");
-        var hs = new HorizontalScroll.default({
-            blocks: blocks,
-            container: container,
-            isAnimated: true,
-            springEffect: 0.8,
-        });
-    </script>
+    <script src="js/main.js"></script>
+   
 </body>
 
 </html>
