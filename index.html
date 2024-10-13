@@ -11,13 +11,9 @@
     <title>Glagoliev Ievgenii | Portfolio </title>
     <!-- stylesheet -->
     <link rel="stylesheet" href="css/styles.css" />
-    <!-- greensock -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
 </head>
 
-<body class="home">
-    <div class="wrapper">
-
+<body>
         <!-- menu -->
         <nav class="menu">
             <div class="menu__logo">
@@ -30,59 +26,63 @@
         </nav>
 
         <!-- horizontal scroll items -->
-        <div class="container">
-            <div class="container__item container__item-header">
-                <h1>Glagoliev Ievgenii <br>Frontend Developer </h1>
-            </div>
-
-            <a href="#" class="container__item">
-              <span class="container__item-tag">Consulting services marketplace</span>
-              <img src="./images/conseasy.png" alt="conseasy">
-                <h2 class="container__item-title">
-                  Conseasy
-                </h2>
-            </a>
-            <a href="#" class="container__item">
-              <span class="container__item-tag">Online service for pet owners and veterinarians</span>
-              <img src="./images/vetplatform.png" alt="conseasy">
-                <h2 class="container__item-title">
-                  Vet platform
-                </h2>
-            </a>
-            <a href="#" class="container__item">
-              <span class="container__item-tag">Booking service for expeditions and guided hikes</span>
-              <img src="./images/expedreview.png" alt="conseasy">
-                <h2 class="container__item-title">
-                  Expedreview
-                </h2>
-            </a>
-            <a href="#" class="container__item">
-              <span class="container__item-tag">A platform for automating work to achieve the company's business goals</span>
-              <img src="./images/ahundred.png" alt="conseasy">
-                <h2 class="container__item-title">
-                  Ahundred
-                </h2>
-            </a>
-            <a href="#" class="container__item">
-              <span class="container__item-tag">Analytical service</span>
-              <img src="./images/accton.png" alt="conseasy">
-                <h2 class="container__item-title">
-                  Accton
-                </h2>
-            </a>
-            <a href="#" class="container__item">
-              <span class="container__item-tag">P2P investment platform</span>
-              <img src="./images/lonvest.png" alt="conseasy">
-                <h2 class="container__item-title">
-                  Lonvest
-                </h2>
-            </a>
+      <main class="root" id="viewport" data-scroll-container>
+        <div class="wrap" data-scroll-section>
+          <div class="container__item container__item-header">
+            <h1>Glagoliev Ievgenii <br>Frontend Developer </h1>
+          </div>
+          <a href="#" class="container__item">
+            <span class="container__item-tag">Consulting services marketplace</span>
+            <img src="./images/projects/conseasy.jpg" alt="conseasy">
+            <h2 class="container__item-title">
+              Conseasy
+            </h2>
+          </a>
+          <a href="#" class="container__item ">
+            <span class="container__item-tag">Online service for pet owners and veterinarians</span>
+            <img src="./images/projects/askavet.jpg" alt="askavet">
+            <h2 class="container__item-title">
+              Vet platform
+            </h2>
+          </a>
+          <a href="#" class="container__item">
+            <span class="container__item-tag">Booking service for expeditions and guided hikes</span>
+            <img src="./images/projects/expedreview.jpg" alt="expedreview">
+            <h2 class="container__item-title">
+              Expedreview
+            </h2>
+          </a>
+          <a href="#" class="container__item">
+            <span class="container__item-tag">A platform for automating work to achieve the company's business goals</span>
+            <img src="./images/projects/ahundred.jpg" alt="ahundred">
+            <h2 class="container__item-title">
+              Ahundred
+            </h2>
+          </a>
+          <a href="#" class="container__item">
+            <span class="container__item-tag">Analytical service</span>
+            <img src="./images/projects/accton.jpg" alt="accton">
+            <h2 class="container__item-title">
+              Accton
+            </h2>
+          </a>
+          <a href="#" class="container__item" >
+            <span class="container__item-tag">P2P investment platform</span>
+            <img src="./images/projects/lonvest.jpg" alt="lonvest">
+            <h2 class="container__item-title">
+              Lonvest
+            </h2>
+          </a>
         </div>
-
-    </div>
+      </main>
 
     <!-- script -->
-    <script src="js/horizontal-scroll.js"></script>
+        <!-- greensock -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/gsap@3.5.1/dist/ScrollTrigger.min.js"></script>
+        <!-- locomotive-scroll -->
+        <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.0.6/dist/locomotive-scroll.min.js"></script>
     <script src="js/main.js"></script>
    
 </body>
